@@ -1,0 +1,38 @@
+# 개발환경(OS): Ubuntu 22.04.3 LTS (Jammy Jellyfish)
+
+# Python version
+# python==3.10.13
+
+# --- Core Deep Learning Framework ---
+# PyTorch와 관련 라이브러리
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+# --- Hugging Face Ecosystem ---
+transformers==4.54.1
+datasets==4.0.0
+accelerate==1.9.0
+
+# --- Model & Tokenizer Dependencies ---
+safetensors==0.5.3
+sentencepiece==0.2.0
+huggingface-hub==0.34.3
+Pillow==10.0.1
+tokenizers==0.21.4 
+
+# --- Utilities ---
+# 데이터 처리, 진행 상황 표시, 시각화를 위한 유틸리티
+numpy==1.26.3
+matplotlib==3.10.3
+tqdm==4.67.1
+
+
+# Qwen이 원격 코드를 통해 사용할 수 있는 라이브러리
+tiktoken==0.9.0
+einops==0.8.1
+transformers-stream-generator==0.0.5
+
+# --- Data Handling for Evaluation/Inference ---
+# CSV 파일 다루기 
+pandas==2.3.1
